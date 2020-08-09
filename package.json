@@ -1,0 +1,18 @@
+{
+  "name": "woowa-readme-generator",
+  "version": "1.0.0",
+  "description": "automatic generate README.md by CLI command in NodeJS projects",
+  "main": "src/index.js",
+  "author": "changicho",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "directory-tree": "^2.2.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0"
+  }
+}
