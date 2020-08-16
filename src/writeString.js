@@ -43,14 +43,14 @@ module.exports = function writeString(projectData) {
   string += `\n\n`;
 
   string += `## install\n\n`;
-  string += `${innerCode}bash\nnpm install \n# or \nyarn\n${innerCode}`;
+  string += `${innerCode}bash\nnpm install\n# or \nyarn\n${innerCode}`;
   string += `\n\n`;
 
-  for (let script in projectData.scripts) {
+  projectData.scripts.forEach((script) => {
     string += `## ${script}\n\n`;
-    string += `${innerCode}bash\nnpm ${script} \n# or \nyarn ${script}\n${innerCode}`;
+    string += `${innerCode}bash\nnpm ${script}\n# or \nyarn ${script}\n${innerCode}`;
     string += `\n\n`;
-  }
+  });
 
   string += `## support\n\n`;
   string += `if you want to support this projects, please click ⭐️\n`;
