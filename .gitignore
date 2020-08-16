@@ -1,2 +1,4 @@
 # except node_moduels
 node_modules/
+
+.DS_Store
