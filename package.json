@@ -2,9 +2,27 @@
   "name": "woowa-readme-generator",
   "version": "1.0.0",
   "description": "automatic generate README.md by CLI command in NodeJS projects",
+  "keywords": [
+    "readme",
+    "markdown",
+    "generator",
+    "badge"
+  ],
+  "homepage": "https://github.com/changicho/woowa-readme-generator",
+  "bugs": {
+    "url": "https://github.com/changicho/woowa-readme-generator/issues"
+  },
   "main": "src/index.js",
-  "author": "changicho",
+  "author": {
+    "name": "changicho",
+    "email": "changicho29@gmail.com",
+    "url": "https://github.com/changicho"
+  },
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/changicho/woowa-readme-generator.git"
+  },
   "private": false,
   "scripts": {
     "start": "node src/index.js"
