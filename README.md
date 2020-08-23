@@ -2,22 +2,24 @@
 
 > automatic generate README.md by CLI command in NodeJS projects
 
-![version](https://img.shields.io/badge/version-1.0.0-brightgreen) 
+![version](https://img.shields.io/badge/version-1.0.0-brightgreen)
 
 ## install
 
 ```bash
-npm install 
-# or 
-yarn
+npm install -g woowa-readme-generator
+```
+
+or
+
+```bash
+yarn global add woowa-readme-generator
 ```
 
 ## start
 
 ```bash
-npm start 
-# or 
-yarn start
+woowa-readme-generator
 ```
 
 ## support
