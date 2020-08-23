@@ -37,14 +37,14 @@ module.exports = function parseData(packageData) {
     }
   }
   if (packageData.dependencies) {
-    for (let key in packageData.scripts) {
+    for (let key in packageData.dependencies) {
       if (table[key] !== undefined) {
         projectData.dependencies.add(key);
       }
     }
   }
   if (packageData.devDependencies) {
-    for (let key in packageData.scripts) {
+    for (let key in packageData.devDependencies) {
       if (table[key] !== undefined) {
         projectData.dependencies.add(key);
       }
