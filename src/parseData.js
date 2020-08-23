@@ -43,6 +43,13 @@ module.exports = function parseData(packageData) {
       }
     }
   }
+  if (packageData.devDependencies) {
+    for (let key in packageData.scripts) {
+      if (table[key] !== undefined) {
+        projectData.dependencies.add(key);
+      }
+    }
+  }
 
   return projectData;
 };
