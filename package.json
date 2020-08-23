@@ -14,7 +14,7 @@
   },
   "main": "src/index.js",
   "bin": {
-    "readme": "src/index.js"
+    "woowa-readme-generator": "src/index.js"
   },
   "author": {
     "name": "changicho",
